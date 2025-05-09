@@ -2,7 +2,7 @@ spring:
   application:
     name: customer-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/testWithMicroservices
+    url: jdbc:postgresql://localhost:5432/cust_master
     driverClassName: org.postgresql.Driver
   jpa:
     hibernate:
