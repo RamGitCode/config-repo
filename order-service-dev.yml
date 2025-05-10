@@ -5,7 +5,7 @@ server:
 message: Hello from order Dev
 spring:
   datasource:
-    url: jdbc:h2:mem:order_master
+    url: jdbc:postgresql://localhost:5432/order_master
     username: postgres
     password: root
   jpa:
