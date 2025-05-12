@@ -2,7 +2,7 @@ spring:
   application:
     name: order-service
   datasource:
-    url: jdbc:postgresql://localhost:5432/order_master
+    url: jdbc:postgresql://localhost:5432/gateway_master
     driverClassName: org.postgresql.Driver
   jpa:
     hibernate:
